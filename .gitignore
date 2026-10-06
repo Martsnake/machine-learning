@@ -1,0 +1,30 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and model artifacts
+data/raw/*
+data/processed/*
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Keep placeholder files that preserve the folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Editor and OS files
+.vscode/
+.DS_Store
