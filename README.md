@@ -15,9 +15,10 @@ Repositorio de apoio a trabalhos, aulas e projetos da unidade curricular de Apre
 Na raiz do repositorio, cria e ativa um ambiente virtual:
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 ```
+
 
 No Windows PowerShell, ativa-o com:
 
@@ -40,7 +41,7 @@ jupyter lab
 
 ## Organizacao
 
-- `notebooks/aulas/`: notebooks organizados por aula ou tema, conforme o programa.
+- `notebooks/`: notebooks do projeto.
 - `data/raw/`: dados originais; nao guardar dados privados ou ficheiros grandes no GitHub.
 - `data/processed/`: dados preparados; normalmente tambem ficam fora do Git.
 - `src/`: codigo Python reutilizavel.
